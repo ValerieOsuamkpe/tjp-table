@@ -9,16 +9,22 @@
 
 body {
     font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: 400;
-    text-align: left;
+}
+
+.wrapper {
     background-color: #FEE3D8;
     color: black;
-    padding-left: 2%;
+    font-weight: 400;
+    text-align: left;
+    max-width: 46%;
+    padding: 2rem 1.5rem;
+    
 }
+
 
 p {
     font-size: 1rem;
-    max-width: 48%;
+    max-width: ;
     line-height: 1.5;
 }
 
@@ -26,7 +32,6 @@ h1, th {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
 }
-
 
 
 table, th, td {
