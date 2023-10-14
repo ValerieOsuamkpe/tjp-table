@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
 
-
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 
 body {
     font-family: 'Montserrat Alternates', sans-serif;
@@ -13,39 +12,57 @@ body {
 
 .wrapper {
     background-color: #FEE3D8;
-    color: black;
-    font-weight: 400;
-    text-align: left;
-    max-width: 46%;
-    padding: 2rem 1.5rem;
-    
+    margin: 3rem auto;
+    padding: 1rem 2%;
+    width: 49%;
 }
 
+h1 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
 
 p {
     font-size: 1rem;
-    max-width: ;
-    line-height: 1.5;
+    padding: 1rem 0rem;
 }
 
-h1, th {
+th {
+    font-weight: 600;
+    font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.3rem;
 }
 
+th, td {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2%;
+    text-align: left;
+}
 
-table, th, td {
+table {
+    /* margin: 0 auto; */
+    width: 100%;
+}
+
+table, td, th {
     border: 1px solid black;
     border-collapse: collapse;
-    padding: 1rem 5.2rem 1rem 1rem;
+    
+    
+    /* text-align: left; */
 }
 
-button {
+
+.send-report {
     background-color: #BFEE62;
-    color: black;   
-    padding: 0.8rem 1.95rem;
+    color: black;
     border: none;
-    border-radius: 0.6rem;
-    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 0.8rem 2rem;
+    margin: 1.2rem 0rem;
+    border-radius: 8px;
     font-weight: 600;
+    font-size: 0.9rem;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
