@@ -41,3 +41,161 @@ nav ul li a span {
 }
 /* End of nav section (header) */
 
+/* Section one Hero Section */
+.section1 {
+    display: flex;
+    background: url(./Resources/Hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33.8rem;
+}
+.section1 > div {
+    color: white;
+    padding-left: 7%;
+    width: 100%;
+    margin-top: 16.12rem;
+}
+.section1 > div > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8125rem;
+    font-weight: 600;
+}
+.section1 > div > p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5625rem;
+    font-weight: 600;
+}
+.section1 > div > button > a {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 0.1875rem;
+    background: #F9AF16;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+}
+.section1 > div > button {
+    padding: 0.625rem;
+    border: none;
+    border-radius: 0.1875rem;
+    background: #F9AF16;
+    margin-top: 3.12rem;
+}
+/* End of Section One (Hero Section) */
+
+/* Section two (About Us) */
+.section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 7%;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+    width: 100%;
+    gap: 4.81rem;
+    border: #000 2px dotted;
+}
+.section2 > .right {
+    width: 40%;
+    color: #000;
+    border: salmon 2px solid;
+}
+.section2 > .right > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+.section2 > .right > p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 0.94rem;
+}
+.section2 > div > button > a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 0.1875rem;
+    color: #000;
+    background: #F9AF16;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+}
+.section2 > div > button {
+    padding: 0.625rem;
+    border: none;
+    border-radius: 0.1875rem;
+    background: #F9AF16;
+    margin-top: 2.81rem;
+}
+.section2 > .left {
+    width: 50%;
+    padding-top: ;
+}
+.section2 > .left > img {
+    width: 100%;
+}
+/* End of Section Two (About Us) */
+
+/* Section three (Benefits) */
+.section3 {
+    padding: 7%;
+}
+.section3 > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 3.13rem;
+}
+.section3 > .wrap3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 4.38rem 3.12rem;
+}
+.wrap3 > div > h3 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    /* padding-left: 2.37rem; */
+}
+.first, .second, .third, .fourth, .fifth, .sixth {
+    position: relative;
+}
+.first > h3 {
+    position: absolute;
+    top: 14.12rem;
+    left: 2.37rem;
+}
+.second > h3 {
+    position: absolute;
+    top: 14.12rem;
+    left: 2.37rem;
+}
+.third > h3 {
+    position: absolute;
+    top: 13.37rem;
+    left: 1.94rem;
+    width: 70%;
+}
+.fourth > h3 {
+    position: absolute;
+    top: 14.12rem;
+    left: 2.37rem;
+}
+.fifth > h3 {
+    position: absolute;
+    top: 14.12rem;
+    left: 1.25rem;
+}
+.sixth > h3 {
+    position: absolute;
+    top: 13.37rem;
+    left: 2.38rem;
+    width: 70%;
+}
