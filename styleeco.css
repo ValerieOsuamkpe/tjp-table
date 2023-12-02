@@ -253,8 +253,8 @@ nav ul li a span {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     gap: 1.56rem 4.13rem;
-    border: #239C2F solid;
-    /* gap: 1.56rem 10.3%; */
+    /* border: #239C2F solid; */
+    /* gap: 1.56rem 10.3%; using percentages on css grid causes an overflow */
 }
 .wrap5 > div > h3 {
     color: #000;
