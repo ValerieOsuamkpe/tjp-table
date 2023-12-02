@@ -304,3 +304,22 @@ nav ul li a span {
 /* End of Section Five (Our services) */
 
 /* Footer should be here */
+
+
+/* Responsiveness @media queries */
+/* mobile view - from 600px down*/
+@media only screen and (max-width: 600px) {
+/* Section one (Hero Section) */
+
+/* Section two (About Us) */
+.section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Section three (Benefits) */
+
+/* Section four (Core Values) */
+
+/* Section five (Our Services) */
+}
