@@ -44,9 +44,6 @@ nav ul li a span {
 /* Section one Hero Section */
 .section1 {
     position: relative;
-    /* background: url(./Resources/Hero.png); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
 }
 .section1 > img {
     width: 100%;
@@ -160,12 +157,7 @@ nav ul li a span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* display: grid; */
-    /* grid-template-columns: auto auto auto; */
-    /* grid-template-rows: auto auto; */
     gap: 4.38rem 4.13rem;
-    border: #239C2F dotted;
-    /* check how to use auto-fit and auto-fill */
 }
 .wrap3 > div > h3 {
     color: white;
@@ -178,38 +170,32 @@ nav ul li a span {
 }
 .first > h3 {
     position: absolute;
-    top: 14.12rem;
     top: 82%;
     left: 2.37rem;
 }
 .second > h3 {
     position: absolute;
-    top: 14.12rem;
     top: 82%;
     left: 2.37rem;
 }
 .third > h3 {
     position: absolute;
-    top: 13.37rem;
     top: 75%;
     left: 1.94rem;
     width: 80%;
 }
 .fourth > h3 {
     position: absolute;
-    top: 14.12rem;
     top: 82%;
     left: 2.37rem;
 }
 .fifth > h3 {
     position: absolute;
-    top: 14.12rem;
     top: 82%;
     left: 1.25rem;
 }
 .sixth > h3 {
     position: absolute;
-    top: 13.37rem;
     top: 75%;
     left: 2.38rem;
     width: 70%;
@@ -231,18 +217,13 @@ nav ul li a span {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     gap: 3.12rem 8.8rem;
-    border: #239C2F dotted;
 }
 .section4 > .wrap4 > div {
     display: flex;
     gap: 0 1.25rem;
 }
-.wrap4 > div > div > img {
-    display: block;
-}
-.section4 > .wrap4 > div > div {
-    /* border: #F9AF16 dotted; */
-}
+.wrap4 > div > div > img {}
+.section4 > .wrap4 > div > div {}
 .wrap4 > div > div > h3 {
     color: #000;
     font-family: 'Montserrat', sans-serif;
@@ -274,12 +255,6 @@ nav ul li a span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* display: grid; */
-    /* grid-template-columns: auto auto auto; */
-    /* grid-template-rows: auto auto; */
-    /* gap: 1.56rem 4.13rem; */
-    border: #239C2F solid;
-    /* gap: 1.56rem 10.3%; using percentages on css grid causes an overflow */
 }
 .wrap5 > div > h3 {
     color: #000;
@@ -289,11 +264,9 @@ nav ul li a span {
 }
 .one, .two, .three, .four, .five, .six {
     position: relative;
-    border: #F9AF16 solid;
 }
 .one > h3 {
     position: absolute;
-    top: 13.35rem;
     top: 78%;
     left: 0.62rem;
     width: 90%;
@@ -301,19 +274,16 @@ nav ul li a span {
 }
 .two > h3 {
     position: absolute;
-    top: 13.35rem;
     top: 80%;
     left: 3.84rem;
 }
 .three > h3 {
     position: absolute;
-    top: 13.35rem;
     top: 80%;
     left: 5.75rem;
 }
 .four > h3 {
     position: absolute;
-    top: 13.35rem;
     top: 78%;
     left: 0rem;
     width: 95%;
@@ -321,7 +291,6 @@ nav ul li a span {
 }
 .five > h3 {
     position: absolute;
-    top: 13.35rem;
     top: 78%;
     left: 0.8rem;
     width: 80%;
@@ -329,7 +298,6 @@ nav ul li a span {
 }
 .six > h3 {
     position: absolute;
-    top: 13.35rem;
     top: 80%;
     left: 3.03rem;
 }
@@ -359,9 +327,6 @@ header {
 .section1 > div {
     padding-top: 4.38rem;
     padding-bottom: 0.8rem;
-    /* padding-right: 6.25rem; */
-    /* padding-left: 1.81rem; */
-    /* padding-right: 1.81rem; */
     padding-left: 7%;
     padding-right: 7%;
     width: 100%;
@@ -370,7 +335,6 @@ header {
 }
 .section1 > div > h1 {
     font-size: 1.5rem;
-    /* width: 16.25rem; */
     width: 100%;
 }
 .section1 > div > p {
@@ -392,9 +356,7 @@ header {
     flex-direction: column;
 }
 /* Section three (Benefits) */
-.section3 {
-    /* display: none; */
-}
+.section3 {}
 .section3 > .wrap3 { }
 .first, .second, .third, .fourth, .fifth, .sixth {
     width: 100%;
@@ -408,9 +370,7 @@ header {
 }
 
 /* Section four (Core Values) */
-.section4 {
-    /* display: none; */
-}
+.section4 {}
 .section4 > .wrap4 {
     display: grid;
     grid-template-columns: auto;
@@ -430,7 +390,6 @@ header {
 }
 
 }
-
 
 
 
