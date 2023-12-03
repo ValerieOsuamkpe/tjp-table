@@ -364,12 +364,15 @@ header {
 .section2 button {
     display: none;
 }
+.section2 .mobliebutton {
+    /* add long button */
+}
+
 /* Section three (Benefits) */
 .section3 {}
 .section3 > .wrap3 { }
 .first, .second, .third, .fourth, .fifth, .sixth {
     width: 100%;
-    border: #F9AF16 solid;
 }
 .wrap3 > div > img {
     width: 100%;
