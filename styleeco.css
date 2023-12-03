@@ -162,6 +162,7 @@ nav ul li a span {
     grid-template-rows: auto auto;
     gap: 4.38rem 4.13rem;
     border: #239C2F dotted;
+    /* check how to use auto-fit and auto-fill */
 }
 .wrap3 > div > h3 {
     color: white;
@@ -371,14 +372,33 @@ header {
 }
 /* Section three (Benefits) */
 .section3 {
-    display: none;
+    /* display: none; */
+}
+.section3 > .wrap3 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
 }
 /* Section four (Core Values) */
 .section4 {
-    display: none;
+    /* display: none; */
+}
+.section4 > .wrap4 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
 }
 /* Section five (Our Services) */
 .section5 {
-    display: none;
+    /* display: none; */
 }
+.section5 > .wrap5 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+
+
+
 }
