@@ -157,9 +157,12 @@ nav ul li a span {
     margin-bottom: 3.13rem;
 }
 .section3 > .wrap3 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-rows: auto auto; */
     gap: 4.38rem 4.13rem;
     border: #239C2F dotted;
     /* check how to use auto-fit and auto-fill */
@@ -261,10 +264,14 @@ nav ul li a span {
     margin-bottom: 3.12rem;
 }
 .section5 > .wrap5 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
     gap: 1.56rem 4.13rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-rows: auto auto; */
+    /* gap: 1.56rem 4.13rem; */
     border: #239C2F solid;
     /* gap: 1.56rem 10.3%; using percentages on css grid causes an overflow */
 }
@@ -276,6 +283,7 @@ nav ul li a span {
 }
 .one, .two, .three, .four, .five, .six {
     position: relative;
+    border: #F9AF16 solid;
 }
 .one > h3 {
     position: absolute;
@@ -375,9 +383,13 @@ header {
     /* display: none; */
 }
 .section3 > .wrap3 {
-    display: grid;
+    /* display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto;
+    grid-template-rows: auto; */
+}
+.first, .second, .third, .fourth, .fifth, .sixth {
+    width: 100%;
+    border: #F9AF16 solid;
 }
 /* Section four (Core Values) */
 .section4 {
@@ -397,6 +409,7 @@ header {
     grid-template-columns: auto;
     grid-template-rows: auto;
 }
+
 
 
 
