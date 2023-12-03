@@ -43,11 +43,20 @@ nav ul li a span {
 
 /* Section one Hero Section */
 .section1 {
-    background: url(./Resources/Hero.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+    /* background: url(./Resources/Hero.png); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+.section1 > img {
+    width: 100%;
+}
+#mobile {
+    display: none;
 }
 .section1 > div {
+    position: absolute;
+    bottom: 0;
     color: white;
     padding-left: 7%;
     width: 100%;
@@ -152,6 +161,7 @@ nav ul li a span {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     gap: 4.38rem 4.13rem;
+    border: #239C2F dotted;
 }
 .wrap3 > div > h3 {
     color: white;
@@ -211,6 +221,7 @@ nav ul li a span {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     gap: 3.12rem 8.8rem;
+    border: #239C2F dotted;
 }
 .section4 > .wrap4 > div {
     display: flex;
@@ -253,7 +264,7 @@ nav ul li a span {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     gap: 1.56rem 4.13rem;
-    /* border: #239C2F solid; */
+    border: #239C2F solid;
     /* gap: 1.56rem 10.3%; using percentages on css grid causes an overflow */
 }
 .wrap5 > div > h3 {
@@ -309,17 +320,65 @@ nav ul li a span {
 /* Responsiveness @media queries */
 /* mobile view - from 600px down*/
 @media only screen and (max-width: 600px) {
+/* Header */
+header {
+    display: none;
+}
 /* Section one (Hero Section) */
-
+.section1 {
+    display: ;
+}
+#desktop {
+    display: none;
+}
+#mobile {
+    display: flex;
+}
+.section1 > div {
+    padding-top: 4.38rem;
+    padding-bottom: 0.8rem;
+    /* padding-right: 6.25rem; */
+    /* padding-left: 1.81rem; */
+    /* padding-right: 1.81rem; */
+    padding-left: 7%;
+    padding-right: 7%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.section1 > div > h1 {
+    font-size: 1.5rem;
+    /* width: 16.25rem; */
+    width: 100%;
+}
+.section1 > div > p {
+    font-size: 0.75rem;
+    width: 11.25rem;
+    margin-top: 0.69rem;
+}
+.section1 > div > button > a {
+    font-size: 0.65331rem;
+    padding: 0.36rem;
+}
+.section1 > div > button {
+    padding: 0.36rem;
+    margin-top: 1.25rem;
+}
 /* Section two (About Us) */
 .section2 {
-    display: flex;
+    display: none;
     flex-direction: column;
 }
-
 /* Section three (Benefits) */
-
+.section3 {
+    display: none;
+}
 /* Section four (Core Values) */
-
+.section4 {
+    display: none;
+}
 /* Section five (Our Services) */
+.section5 {
+    display: none;
+}
 }
