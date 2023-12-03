@@ -352,8 +352,17 @@ header {
 }
 /* Section two (About Us) */
 .section2 {
-    display: none;
+    display: flex;
     flex-direction: column;
+}
+.section2 .right {
+    width: 100%;
+}
+.section2 .left {
+    width: 100%;
+}
+.section2 button {
+    display: none;
 }
 /* Section three (Benefits) */
 .section3 {}
