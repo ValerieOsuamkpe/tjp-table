@@ -1,0 +1,412 @@
+/* here is for google font */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    margin: 1% 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 15%;
+}
+.logo img {
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    gap: 38px;
+}
+nav ul li {
+    display: inline-flex;
+    list-style: none;
+}
+nav ul li a {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 400;
+}
+nav ul li a span {
+    color: #239C2F;
+}
+.menu {
+    display: none;
+}
+/* End of nav section (header) */
+
+/* Section one Hero Section */
+.section1 {
+    position: relative;
+}
+.section1 > img {
+    width: 100%;
+}
+#mobile {
+    display: none;
+}
+.section1 > div {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding-left: 7%;
+    width: 100%;
+    padding-top: 16.12rem;
+    padding-bottom: 5.56rem;
+}
+.section1 > div > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8125rem;
+    font-weight: 600;
+}
+.section1 > div > p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5625rem;
+    font-weight: 600;
+}
+.section1 > div > button > a {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 0.1875rem;
+    background: #F9AF16;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+}
+.section1 > div > button {
+    padding: 0.625rem;
+    border: none;
+    border-radius: 0.1875rem;
+    background: #F9AF16;
+    margin-top: 3.12rem;
+}
+/* End of Section One (Hero Section) */
+
+/* Section two (About Us) */
+.section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 7%;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+    width: 100%;
+    gap: 4.81rem;
+}
+.section2 > .right {
+    width: 40%;
+    color: #000;
+}
+.section2 .inside {
+    display: none;
+}
+.section2 > .right > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+.section2 > .right > p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 0.94rem;
+}
+.section2 > .left {
+    width: 50%;
+    padding-right: 3%;
+}
+.section2 > .left > img {
+    width: 100%;
+}
+/* End of Section Two (About Us) */
+
+/* Section three (Benefits) */
+.section3 {
+    padding: 7%;
+}
+.section3 > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 3.13rem;
+}
+.section3 > .wrap3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.wrap3 > div > h3 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.first, .second, .third, .fourth, .fifth, .sixth {
+    position: relative;
+}
+.first > h3 {
+    position: absolute;
+    top: 82%;
+    left: 2.37rem;
+}
+.second > h3 {
+    position: absolute;
+    top: 82%;
+    left: 2.37rem;
+}
+.third > h3 {
+    position: absolute;
+    top: 75%;
+    left: 1.94rem;
+    width: 80%;
+}
+.fourth > h3 {
+    position: absolute;
+    top: 82%;
+    left: 2.37rem;
+}
+.fifth > h3 {
+    position: absolute;
+    top: 82%;
+    left: 1.25rem;
+}
+.sixth > h3 {
+    position: absolute;
+    top: 75%;
+    left: 2.38rem;
+    width: 70%;
+}
+/* End of Section three (Benefits) */
+
+/* Section Four (Core Values) */
+.section4 {
+    padding: 6.5% 7%;
+}
+.section4 > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 3.12rem;
+}
+.section4 > .wrap4 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 3.12rem 8.8rem;
+}
+.section4 > .wrap4 > div {
+    display: flex;
+    gap: 0 1.25rem;
+}
+.wrap4 > div > div > img {
+    display: block;
+}
+.section4 > .wrap4 > div > div {
+    /* border: #F9AF16 dotted; */
+}
+.wrap4 > div > div > h3 {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.62rem;
+}
+.wrap4 > div > div > p {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    text-align: justify;
+}
+/* Section Four (Core Values) */
+
+/* Section Five (Our Services) */
+.section5 {
+    padding: 6.5% 7%;
+}
+.section5 > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-bottom: 3.12rem;
+}
+.section5 > .wrap5 {
+    gap: 1.56rem 4.13rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.wrap5 > div > h3 {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.one, .two, .three, .four, .five, .six {
+    position: relative;
+}
+.one > h3 {
+    position: absolute;
+    top: 78%;
+    left: 0.62rem;
+    width: 90%;
+    text-align: center;
+}
+.two > h3 {
+    position: absolute;
+    top: 80%;
+    left: 3.84rem;
+}
+.three > h3 {
+    position: absolute;
+    top: 80%;
+    left: 5.75rem;
+}
+.four > h3 {
+    position: absolute;
+    top: 78%;
+    left: 0rem;
+    width: 95%;
+    text-align: center;
+}
+.five > h3 {
+    position: absolute;
+    top: 78%;
+    left: 0.8rem;
+    width: 80%;
+    text-align: center;
+}
+.six > h3 {
+    position: absolute;
+    top: 80%;
+    left: 3.03rem;
+}
+/* End of Section Five (Our services) */
+
+/* Footer should be here */
+
+
+
+/* Responsiveness @media queries */
+/* mobile view - from 600px down*/
+@media only screen and (max-width: 600px) {
+/* Header */
+header {
+    display: none;
+}
+/* Section one (Hero Section) */
+.section1 {
+    display: ;
+}
+.section1 #desktop {
+    display: none;
+}
+.section1 #mobile {
+    display: flex;
+}
+.section1 > div {
+    padding-top: 4.38rem;
+    padding-bottom: 0.8rem;
+    padding-left: 7%;
+    padding-right: 7%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.section1 > div > h1 {
+    font-size: 1.5rem;
+    width: 100%;
+}
+.section1 > div > p {
+    font-size: 0.75rem;
+    width: 11.25rem;
+    margin-top: 0.69rem;
+}
+.section1 > div > button > a {
+    font-size: 0.65331rem;
+    padding: 0.36rem;
+}
+.section1 > div > button {
+    padding: 0.36rem;
+    margin-top: 1.25rem;
+}
+/* Section two (About Us) */
+.section2 {
+    display: flex;
+    flex-direction: column;
+}
+.section2 .right {
+    width: 80%;
+}
+.section2 .inside {
+    display: flex;
+    /* padding-right: 3%; */
+}
+.section2 .inside > img {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.section2 .left {
+    display: none;
+}
+/* Section three (Benefits) */
+.section3 {
+    /* display: none; */
+}
+.section3 > .wrap3 { }
+.first, .second, .third, .fourth, .fifth, .sixth {
+    width: 100%;
+}
+.wrap3 > div > img {
+    width: 100%;
+}
+.wrap3 > div > h3 {
+    font-size: 0.875rem;
+}
+
+/* Section four (Core Values) */
+.section4 {
+    /* display: none; */
+}
+.section4 > .wrap4 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+/* Section five (Our Services) */
+.section5 { }
+.section5 > .wrap5 { }
+.one, .two, .three, .four, .five, .six {
+    width: 100%;
+}
+.wrap5 > div > img {
+    width: 100%;
+}
+.wrap5 > div > h3 {
+    font-size: 0.875rem;
+}
+
+}
+
+
+
+
+/* Responsiveness @media queries */
+/* tablet view - from 1100px to 600px*/
+@media screen and (max-width: 1100px) and (min-width: 600px) {
+    .section4 > .wrap4 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+}
